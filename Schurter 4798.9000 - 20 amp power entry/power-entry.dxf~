@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
--0.2525
+-22.75
  20
--0.2525
+-12.25
  30
 0
   9
 $EXTMAX
  10
-0.2225000000000001
+22.75
  20
-0.2525
+12.25
  30
 0
   9
@@ -187,7 +187,7 @@ $DIMTAD
   9
 $DIMZIN
  70
-    1
+    8
   9
 $DIMBLK
   1
@@ -311,7 +311,7 @@ $DIMUPT
   9
 $DIMDEC
  70
-    4
+    2
   9
 $DIMTDEC
  70
@@ -335,7 +335,7 @@ $DIMAUNIT
   9
 $DIMADEC
  70
-    2
+    0
   9
 $DIMALTRND
  40
@@ -823,9 +823,9 @@ $PLIMMIN
   9
 $PLIMMAX
  10
-11.69291338582677
+2.6428e-05
  20
-8.267716535433072
+2.0421e-05
   9
 $UNITMODE
  70
@@ -865,7 +865,7 @@ $PROXYGRAPHICS
   9
 $MEASUREMENT
  70
-    0
+    1
   9
 $CELWEIGHT
 370
@@ -885,7 +885,7 @@ $LWDISPLAY
   9
 $INSUNITS
  70
-    1
+    4
   9
 $HYPERLINKBASE
   1
@@ -913,7 +913,7 @@ $EXTNAMES
   9
 $PSVPSCALE
  40
-0
+1
   9
 $OLESTARTUP
 290
@@ -1121,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
-0.2175168661457748
+32.84362965775185
  22
-0.1297926727526512
+15.46852218273088
  13
 0
  23
@@ -1149,7 +1149,7 @@ AcDbViewportTableRecord
  37
 0
  40
-0.5178662420382165
+57.12561215389917
  41
 1.992443324937028
  42
@@ -2447,7 +2447,7 @@ Standard
  77
     0
  78
-    1
+    8
  79
     0
 170
@@ -2469,9 +2469,9 @@ Standard
 178
     0
 179
-    2
+    0
 271
-    4
+    2
 272
     4
 273
@@ -2655,7 +2655,7 @@ SECTION
   2
 ENTITIES
   0
-ARC
+LINE
   5
 4D
 100
@@ -2669,19 +2669,15 @@ ByLayer
 370
    -1
 100
-AcDbCircle
+AcDbLine
  10
-0
+-16.3
  20
-0
- 40
-0.2525
-100
-AcDbArc
- 50
-28.21398073168542
- 51
-331.7860192683146
+11.25
+ 11
+-16.3
+ 21
+-11.25
   0
 LINE
   5
@@ -2699,13 +2695,217 @@ ByLayer
 100
 AcDbLine
  10
-0.2225000000000001
+-15.3
  20
-0.1193733638631331
+-12.25
  11
-0.2225
+15.3
  21
--0.1193733638631332
+-12.25
+  0
+LINE
+  5
+4F
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+16.3
+ 20
+11.25
+ 11
+16.3
+ 21
+-11.25
+  0
+LINE
+  5
+50
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-15.3
+ 20
+12.25
+ 11
+15.3
+ 21
+12.25
+  0
+ARC
+  5
+51
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-15.3
+ 20
+11.25
+ 40
+1
+100
+AcDbArc
+ 50
+90
+ 51
+180
+  0
+ARC
+  5
+52
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-15.3
+ 20
+-11.25
+ 40
+1
+100
+AcDbArc
+ 50
+180
+ 51
+270
+  0
+ARC
+  5
+53
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+15.3
+ 20
+-11.25
+ 40
+1
+100
+AcDbArc
+ 50
+270
+ 51
+360
+  0
+ARC
+  5
+54
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+15.3
+ 20
+11.25
+ 40
+1
+100
+AcDbArc
+ 50
+0
+ 51
+90
+  0
+CIRCLE
+  5
+55
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+21
+ 20
+0
+ 40
+1.75
+  0
+CIRCLE
+  5
+56
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-21
+ 20
+0
+ 40
+1.75
   0
 ENDSEC
   0
@@ -2739,7 +2939,7 @@ AcDbDictionary
   0
 PLOTSETTINGS
   5
-4F
+57
 100
 AcDbPlotSettings
   6
